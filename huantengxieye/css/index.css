@@ -1,0 +1,254 @@
+/*header*/
+.sulin_header{
+	width:100%;
+	height:36px;
+	background:#0d0d0d;
+}
+.header{
+	width:1015px;
+	height:36px;
+	margin:0 auto;
+ }
+.header span{
+	float:left;
+	color:#6b6b6b;
+	line-height:36px;
+	font-size:14px;
+}
+.header em{
+	color:#ff6e27;
+}
+.header ul{
+	width:300px;
+	height:36px;
+	float:right;
+	background:url(../images/head.png) no-repeat left center;
+}
+.header ul li{
+	float:left;
+	width:71px;
+	padding-left:23px;
+}
+.header ul li a{
+	color:#6b6b6b;
+	line-height:36px;
+	font-size: 14px;
+}
+/*Nav*/
+.sulin_Nav_w{
+	width:100%;
+	height:103px;
+	background:url(../images/nav.png) repeat-x 0 0;
+}
+.Nav{
+	width:1015px;
+	height:103px;
+	margin:0 auto;
+	position:relative;
+}
+.Nav .logo{
+	position:absolute;
+	top:26px;
+	left:13px;
+}
+.Nav ul{
+	width:609px;
+	height:100px;
+	float:right;
+}
+.Nav ul li{
+	width:87px;
+	height:100px;
+	float:left;
+}
+.nav1{
+	background:url(../images/11.png) no-repeat 0 0;
+}
+.nav2{
+	background:url(../images/22.png) no-repeat 0 0;
+}
+.nav3{
+	background:url(../images/33.png) no-repeat 0 0;
+}
+.nav4{
+	background:url(../images/44.png) no-repeat 0 0;
+}
+.nav5{
+	background:url(../images/55.png) no-repeat 0 0;
+}
+.nav6{
+	background:url(../images/66.png) no-repeat 0 0;
+}
+.nav7{
+	background:url(../images/77.png) no-repeat 0 0;
+}
+.nav1:hover{
+	background:url(../images/n1.png) no-repeat 0 0;
+}
+.nav2:hover{
+	background:url(../images/n2.png) no-repeat 0 0;
+}
+.nav3:hover{
+	background:url(../images/n3.png) no-repeat 0 0;
+}
+.nav4:hover{
+	background:url(../images/n4.png) no-repeat 0 0;
+}
+.nav5:hover{
+	background:url(../images/n5.png) no-repeat 0 0;
+}
+.nav6:hover{
+	background:url(../images/n6.png) no-repeat 0 0;
+}
+.nav7:hover{
+	background:url(../images/n7.png) no-repeat 0 0;
+}
+
+/*banner*/
+.sulin_Banner_w{
+	width:100%;
+	height:354px;
+	background:url(../images/banner.png) no-repeat ;
+}
+.Banner{
+	width:1015px;
+	height:354px;
+	margin:0 auto;
+	position:relative;
+}
+.ban_top li{
+	position: absolute;
+	top:0;
+	left:0;
+}
+.ban_top .active{
+	z-index: 10;
+}
+.Banner .btn{
+	width:1015px;
+	height:29px;
+	background:#f3640e;
+	position: absolute;
+	bottom:0;
+	left:0;
+	z-index: 30;
+}
+.Banner .btn ul{
+	padding:11px 0 0 509px;
+}
+.btn ul li{
+	width:8px;
+	height:8px;
+	margin-right:15px;
+	float:left;
+	background:url(../images/li.png) no-repeat 0 0;
+	cursor: pointer;
+}
+.btn ul .first{
+	background:url(../images/li2.png) no-repeat 0 0;
+	margin-top:-2px;
+}
+
+/*con*/
+.sulin_conter{
+	width:100%;
+	height:254px;
+	padding-top:12px;
+	background:#1c1c1c;
+}
+.center{
+	width:1015px;
+	height:254px;
+	margin:0 auto;
+	padding-top:54px;
+	background:url(../images/body.png) no-repeat 0 0;
+}
+.center li{
+	width:312px;
+	height:170px;
+	padding-left:20px;
+	float:left;
+}
+.center li a{
+	width:312px;
+	height:170px;
+	display: block;
+}
+.pic1 a{
+	background:url(../images/ul1.jpg) no-repeat 0 0;
+}
+.pic2 a{
+	background:url(../images/ul2.jpg) no-repeat 0 0;
+}
+.pic3 a{
+	background:url(../images/ul3.png) no-repeat 0 0;
+}
+.pic1 a:hover{
+	background:url(../images/ul4.jpg) no-repeat 0 0;
+}
+.pic2 a:hover{
+	background:url(../images/ul5.jpg) no-repeat 0 0;
+}
+.pic3 a:hover{
+	background:url(../images/ul6.jpg) no-repeat 0 0;
+}
+
+/*footed*/
+.sulin_foot_w{
+	width:100%;
+	height:64px;
+	border:1px solid #262626;
+	padding:10px 0;
+	background:#0a0a0a;
+}
+.foot{
+	width:1015px;
+	height:64px;
+	margin:0 auto;
+}
+.foot .biao{
+	width:120px;
+	height:60px;
+	float:left;
+	margin-right:47px;
+}
+.foot .biao li{
+	float:left;
+}
+.foot .title{
+	width:593px;
+	height:60px;
+	float:left;
+}
+.foot .pic_img{
+	width:60px;
+	height:60px;
+	float:left;
+}
+ul.title li{
+	float:left;
+}
+ul.title li a{
+	color:#666666;
+	font-size: 12px;
+	line-height: 24px;
+}
+ul.title span{
+	float:left;
+	color:#666666;
+	padding:2px 10px;
+}
+ul.title .banq{
+	margin-left:-10px;
+}
+ul.title .banquan{
+    font-size: 12px;
+	color:#666666;
+	line-height: 24px;
+}
+ul.title a{
+	float: left;
+	font-size: 12px;
+	color:#666666;
+	line-height: 24px;
+}
